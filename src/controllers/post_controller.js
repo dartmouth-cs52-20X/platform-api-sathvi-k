@@ -1,7 +1,6 @@
 import Post from '../models/post_model';
 
 export const createPost = (req, res) => {
-  // res.send('post should be created and returned');
   const post = new Post({
     title: req.body.title, tags: req.body.tags, content: req.body.content, coverUrl: req.body.coverUrl,
   });
@@ -14,7 +13,6 @@ export const createPost = (req, res) => {
     });
 };
 export const getPosts = (req, res) => {
-  // res.send('posts should be returned');
   Post.find()
     .then((result) => {
       // sorting: https://www.javascripttutorial.net/javascript-array-sort/
@@ -26,7 +24,6 @@ export const getPosts = (req, res) => {
     });
 };
 export const getPost = (req, res) => {
-  // res.send('single post looked up');
   Post.findById(req.params.id)
     .then((result) => {
       res.send(result);
@@ -45,7 +42,6 @@ export const deletePost = (req, res) => {
     });
 };
 export const updatePost = (req, res) => {
-  // res.send('update a post here');
   Post.findByIdAndUpdate(
     req.params.id,
     {
