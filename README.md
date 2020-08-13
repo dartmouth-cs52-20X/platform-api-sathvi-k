@@ -1,4 +1,4 @@
-# Lab 5 (API)
+# Lab 5 (Server)
 
 [deployed heroku url](https://sathvi-lab5-platform.herokuapp.com/api)
 
