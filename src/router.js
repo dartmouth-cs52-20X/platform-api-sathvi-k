@@ -17,4 +17,7 @@ router.route('/posts/:id')
   .put(Posts.updatePost)
   .delete(Posts.deletePost);
 
+router.route('/search/:request')
+  .get(Posts.search);
+
 export default router;
