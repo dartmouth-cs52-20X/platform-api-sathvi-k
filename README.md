@@ -4,7 +4,7 @@
 [deployed surge url (different from lab 5)](http://sathvi-cs52-sa8.surge.sh/)
 
 ## Extra Credit
-I extended the permissions system so that users can only edit their own posts after they sign in. To test this out, here are two accounts that I made a post with:
+I extended the permissions system so that users can only edit or delete their own posts after they sign in. To test this out, here are two accounts that I made a post with:
 
 *email:* test@test.com
 
