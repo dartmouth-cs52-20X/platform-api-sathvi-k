@@ -19,6 +19,7 @@ export const createPost = (req, res) => {
 };
 export const getPosts = (req, res) => {
   Post.find()
+    .populate('author')
     .then((result) => {
       // sorting: https://www.javascripttutorial.net/javascript-array-sort/
       result.sort((a, b) => { return ((a.createdAt < b.createdAt) ? 1 : -1); });
