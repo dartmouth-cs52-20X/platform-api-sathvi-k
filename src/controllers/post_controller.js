@@ -7,6 +7,7 @@ export const createPost = (req, res) => {
     content: req.body.content,
     coverUrl: req.body.coverUrl,
     artist: req.body.artist,
+    author: req.user,
   });
   post.save()
     .then((result) => {
@@ -27,8 +28,11 @@ export const getPosts = (req, res) => {
       res.status(500).json({ error });
     });
 };
+
+// https://mongoosejs.com/docs/populate.html
 export const getPost = (req, res) => {
   Post.findById(req.params.id)
+    .populate('author')
     .then((result) => {
       res.send(result);
     })
@@ -57,6 +61,7 @@ export const updatePost = (req, res) => {
     },
     { new: true },
   )
+    .populate('author')
     .then((result) => {
       res.send(result);
     })
