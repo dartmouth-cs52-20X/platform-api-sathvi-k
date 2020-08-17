@@ -1,8 +1,8 @@
-# Lab 5 (API)
+# Lab 5 (Server)
 
-[deployed heroku url](https://sathvi-lab5-platform.herokuapp.com/api)
+[deployed heroku url](https://sathvi-lab5-platform.herokuapp.com/)
 
-[deployed surge url (different from lab4)](http://sathvi-cs52-lab5.surge.sh/)
+[deployed surge url (different from lab 4)](http://sathvi-cs52-lab5.surge.sh/)
 
 ## What Worked Well
 Overall, this lab and connecting the front end to the mongo database felt a bit easier than Lab 4, because the instructions were pretty straightforward. I also console-logged a bunch of things as I was working on this lab, and that helped me debug.
