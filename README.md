@@ -1,3 +1,23 @@
+# SA 8 
+[deployed heroku url](https://sathvi-lab5-platform.herokuapp.com/)
+
+[deployed surge url (different from lab 5)](http://sathvi-cs52-sa8.surge.sh/)
+
+## Extra Credit
+I extended the permissions system so that users can only edit their own posts after they sign in. To test this out, here are two accounts that I made a post with:
+
+*email:* test@test.com
+
+*password:* password
+
+**and**
+
+*email:* test2@test.com
+
+*password:* password
+
+--------------------
+
 # Lab 5 (Server)
 
 [deployed heroku url](https://sathvi-lab5-platform.herokuapp.com/)
