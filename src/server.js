@@ -8,7 +8,6 @@ import dotenv from 'dotenv';
 import apiRouter from './router';
 
 dotenv.config({ silent: true });
-
 // DB Setup
 const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost/platform_db';
 mongoose.connect(mongoURI);
