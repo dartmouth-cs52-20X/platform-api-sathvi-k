@@ -1,7 +1,7 @@
 # S3 Extra Credit Assignment 
 [deployed heroku url](https://sathvi-lab5-platform.herokuapp.com/)
 
-[deployed surge url (different from lab 4 and 5 and sa 8)](http://sathvi-cs52-s3-ec.surge.sh/)
+[deployed surge url (different from lab 4/5, and sa 8)](http://sathvi-cs52-s3-ec.surge.sh/)
 
 ## What Worked Well
 The instructions weren't too hard to follow so most of it went pretty smoothly! I basically just modified my create post & edit post handlers to work with the image uploading, set up the s3 bucket + heroku integration, and added the code given to us in the assignment instructions.
